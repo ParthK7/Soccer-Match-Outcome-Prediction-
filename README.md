@@ -45,6 +45,7 @@ This project predicts soccer match outcomes using different datasets and methodo
 2. **Football Data UK**: [England Matches Dataset](https://www.football-data.co.uk/englandm.php)
    - Format: 10 CSV files (2015-16 to 2024-25 seasons).
    - Used in: `Match_Outcome_Prediction_New_Dataset.ipynb`.
+   - Text file explaining the meanings of the columns for the dataset. [Text file with column meanings](https://www.football-data.co.uk/notes.txt)
 
 ### Key Differences
 
@@ -73,6 +74,7 @@ This project predicts soccer match outcomes using different datasets and methodo
    ```
 
 3. Ensure the datasets are placed in the correct directories:
+   - Download the data files from [Combined Data](https://drive.google.com/drive/folders/1n7oImdv3yXb7axOAgijHk7BZko4nHHJh?usp=sharing).
    - Place `database.sqlite` in the root folder.
    - Combine the 10 CSV files into one file (`combined_dataset.csv`) using `Match_Outcome_Prediction_New_Dataset.ipynb`.
 
