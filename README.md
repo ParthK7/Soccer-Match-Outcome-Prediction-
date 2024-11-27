@@ -73,6 +73,7 @@ This project predicts soccer match outcomes using different datasets and methodo
    ```
 
 3. Ensure the datasets are placed in the correct directories:
+   - Download the data files from [Combined Data](https://drive.google.com/drive/folders/1n7oImdv3yXb7axOAgijHk7BZko4nHHJh?usp=sharing).
    - Place `database.sqlite` in the root folder.
    - Combine the 10 CSV files into one file (`combined_dataset.csv`) using `Match_Outcome_Prediction_New_Dataset.ipynb`.
 
